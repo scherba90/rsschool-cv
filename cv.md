@@ -22,9 +22,8 @@ Indonesian A1
 
 ## **Presentations**
 
-### **Technical skills**  
-Javascript Basic  
-Google Adwords  
-Adobe Illustrator  
-Corel Draw  
-CMS  
+### **Technical skills** 
+Markdown
+Git/Github/Gitlab 
+Javascript Basic
+HTML5
