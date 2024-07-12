@@ -1,15 +1,43 @@
-.header {
-	top:20px;
+body, html {
+	height: 100%;
+	background: white;
+	font-family: Montserrat, sans-serif;
+	color: black;
+	font-weight: 400;
 }
 
-.main {
-	padding-top:100px;
+h1, h2, h3 {
+	margin: 0px;
 }
 
-.posLeft {
-	margin-left:-66%;
+span {
+	font: Montserrat;
+	font-weight: 400;
+	line-height: 1.7;
+	margin: 0px;
 }
 
-.posCenter {
-	margin-left:33%;
+h1 {
+	color: rgb(0, 49, 104);
+	font-family: Montserrat;
+}
+
+h2 {
+	color: rgb(0, 49, 104);
+	font: Montserrat;
+	font-weight: 700;
+}
+
+.h2_title {
+	color:blueviolet;
+	font-weight: 700;
+}
+
+.h3_title {
+	color:blueviolet;
+	font-weight: 500;
+}
+
+.list .list_item{
+	color: purple;
 }
