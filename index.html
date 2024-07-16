@@ -8,54 +8,64 @@
     <title>CV</title>
   </head>
   <body>
-    <main class="class">
-      <div class="main_title">
-        <h1>Hi, My name is Dmitry Shcherbakov</h1>
-        <h2 class="h2_title">Personal information</h2>
-
-        <section>
-          <div class="contact">
+    <div class="container">
+      <header>
+        <div class="topbar">
+          <div class="btn" id="Personal">Personal</div>
+          <div class="btn" id="#">Contact</div>
+          <div class="btn" id="#">About me</div>
+          <div class="btn" id="#">Skills</div>
+          <div class="btn" id="#">Language</div>
+        </div>
+      </header>
+      <main class="class">
+        <div class="main_title">
+          <h1>Hi, My name is Dmitry Shcherbakov</h1>
+          <h2 id="#Personal" class="h2_title">Personal information</h2>
+        
+          <section>
+            <h3 class="h3_title">Contact:</h3>
             <div class="list">
               <ul class="list_item">
-                <li>email: dim.si@list.ru</li>
-                <li>tel: +79289543989</li>
-                <li>discord: scherba90</li>
+                <li>email: <a href="mailto:dim.si@list.ru">dim.si@list.ru</a></li> 
+                <li>tel: <a href="tel:+79289543989">+79289543989</a></li>
+                <li>discord: <a href="https://discord.gg/CRysDfx4">scherba90</a></li>
               </ul>
             </div>
-          </div>
-          <h3 class="h3_title">About me</h3>
-          <span class="about_text">My position is Head of online sales department in a company producing cosmetic products and nutritional supplements. Joint work on the development of additional tools to increase monthly sales figures - improving the operation of the site logic, improvements on the user side of the site. Direct participation in the implementation and implementation of assigned tasks, writing simple scripts in JS, layout in HTML5. I have an understanding of the principles of SEO and experience in bringing pages to the top positions.</span>
-        </section>
-
-        <section>
-          <h3 class="h3_title">Language knowledge</h3>
-          <div class="list">
-            <ul class="list_item">
-              <li>Russian C2</li>
-              <li>English B1</li>
-              <li>Thai A1</li>
-              <li>Indonesian A1</li>
-            </ul>
-          </div>
-        </section>
-
-        <section>
-          <h3 class="h3_title">Skills</h3>
-          <div class="list">
-            <ul class="list_item">
-              <li>JS Basic</li>
-              <li>HTML</li>
-              <li>SEO</li>
-              <li>Git</li>
-            </ul>
-          </div>
-        </section>
-
-        <section>
-            <h3 class="h3_title">Education</h3>
-                <span class="about_text">2007-2011 National University of Science and Technology «MISIS» - Bachelor</span>
+            <h3 id="#About" class="h3_title">About me</h3>
+            <span class="about_text">My position is Head of online sales departmentin a    company producing cosmetic products and nutritional supplements.Joint work   on the development of additional tools to increase monthlysales figures -     improving the operation of the site logic,improvements on the user side of     the site. Direct participation inthe implementation and implementation of    assigned tasks, writingsimple scripts in JS, layout in HTML5. I have an    understanding of theprinciples of SEO and experience in bringing pages to   the toppositions.</span>
           </section>
-      </div>
-    </main>
+        
+          <section>
+            <h3 id="#Language" class="h3_title">Language knowledge</h3>
+            <div class="list">
+              <ul class="list_item">
+                <li>Russian C2</li>
+                <li>English B1</li>
+                <li>Thai A1</li>
+                <li>Indonesian A1</li>
+              </ul>
+            </div>
+          </section>
+        
+          <section>
+            <h3 id="#Skills" class="h3_title">Skills</h3>
+            <div class="list">
+              <ul class="list_item">
+                <li>JS Basic</li>
+                <li>HTML</li>
+                <li>SEO</li>
+                <li>Git</li>
+              </ul>
+            </div>
+          </section>
+        
+          <section>
+              <h3 id="#Education" class="h3_title">Education</h3>
+                  <span class="about_text">2007-2011 National University of Scienceand     Technology «MISIS» - Bachelor</span>
+            </section>
+        </div>
+      </main>
+    </div>  
   </body>
 </html>
