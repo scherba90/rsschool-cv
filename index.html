@@ -4,6 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&display=swap" rel="stylesheet">
     <link rel="icon" href="assets/favicon.ico" />
     <title>CV</title>
   </head>
@@ -11,20 +14,32 @@
     <div class="container">
       <header>
         <div class="topbar">
-          <div class="btn" id="Personal">Personal</div>
-          <div class="btn" id="#">Contact</div>
-          <div class="btn" id="#">About me</div>
-          <div class="btn" id="#">Skills</div>
-          <div class="btn" id="#">Language</div>
+          <div class="sandwich-panel">
+            <input type="checkbox" id="menu-toggle">
+            <label for="menu-toggle" class="menu-icon">&#9776;</label>
+            <div class="menu">
+              <a href="#Personal">Personal</a>
+              <a href="#Contact">Contact</a>
+              <a href="#About">About me</a>
+              <a href="#Language">Skills</a>
+              <a href="#Skills">Language</a>
+            </div>
+          </div>
+          <div class="btn" id="#Personal">Personal</div>
+          <div class="btn" id="#Contact">Contact</div>
+          <div class="btn" id="#About">About me</div>
+          <div class="btn" id="#Language">Skills</div>
+          <div class="btn" id="#Skills">Language</div>
         </div>
       </header>
       <main class="class">
+        <h1>Hi, My name is Dmitry Shcherbakov</h1>
         <div class="main_title">
-          <h1>Hi, My name is Dmitry Shcherbakov</h1>
           <h2 id="#Personal" class="h2_title">Personal information</h2>
-        
+          
           <section>
-            <h3 class="h3_title">Contact:</h3>
+            <div class="photo"><img id="me" src="public/image/photo.jpg"></div>
+            <h3 class="Contact">Contact:</h3>
             <div class="list">
               <ul class="list_item">
                 <li>email: <a href="mailto:dim.si@list.ru">dim.si@list.ru</a></li> 

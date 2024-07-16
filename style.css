@@ -1,5 +1,5 @@
 body {
-	font-family: Montserrat, sans-serif;
+	font-family: Inconsolata, sans-serif;
 	margin: 0;
 	padding: 0;
 	background-color: #f4f4f4;
@@ -8,22 +8,31 @@ body {
 
 header {
 	background-color: #333333;
-	color: #fff;
+	color: #240d89;
 	padding: 10px;
 	text-align: center;
 }
 
 .main_title {
 	margin: 20px;
-	color:#f8f8f8
+	color:#f8f8f8;
+/* 	display: flex;
+	justify-content: flex-end; */
 }
 
 h1 {
 	font-size: 24px;
+	color: #c73939;
+	padding: 5px 10px 15px 20px;
 }
 
 h2 .h2_title {
 	margin-bottom: 10px;
+	color: #c73939;
+}
+
+h2, h3 {
+	color: #c73939;
 }
 
 .section {
@@ -41,10 +50,16 @@ h2 .h2_title {
 
 .list_item li {
 	margin-bottom: 5px;
+	color: #3998c7;
+}
+
+.list_item li a {
+    color: #c76639;
 }
 
 .about_text {
 	line-height: 1.6;
+	color: #c76639;
 }
 
 .topbar{
@@ -62,10 +77,10 @@ h2 .h2_title {
 	text-align: center;
 	text-decoration: none;
 	cursor: pointer;
-	border: 2px solid hsl(268, 100%, 61%);
+	border: 2px solid hsl(0, 0%, 34%);
 	border-radius: 5px;
-	color: #fff;
-	background-color: hsl(268, 100%, 61%);
+	color: #3998c7;
+	background-color: hsl(0, 0%, 34%);
 	transition: background-color 0.3s, color 0.3s;
 }
 
@@ -77,3 +92,31 @@ h2 .h2_title {
 .btn:active {
 	background-color: #003238;
 }
+
+#me {
+	border-radius: 8px;
+	width: 320px;
+	height: 100%;
+}
+
+input[type="checkbox"] {
+	position: left;
+	top: -9999px;
+	left: -9999px;
+  }
+  
+  /* Стили для иконки меню */
+  .menu-icon {
+	cursor: pointer;
+	color:aliceblue
+  }
+  
+  /* Скрыть меню по умолчанию */
+  .menu {
+	display: none;
+  }
+  
+  /* Показать меню при отмеченном чекбоксе */
+  input[type="checkbox"]:checked ~ .menu {
+	display: block;
+  }
