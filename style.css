@@ -1,142 +1,124 @@
+/* Reset styles */
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
-  
-  /* Global styles */
-  body {
-    font-family: Georgia;
-    background-color: #f0f0f0;
-  }
-  
-  .container {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 0 20px;
-  }
-  
-  /* Header styles */
-  header {
-    width: 1200px;
-    height: 60px;
-    top: 30px;
-    left: 40px;
-    gap: 0px;
-    opacity: 0px;
-    
-  }
-
-  #Logo_Title {
-    width: 184px;
-    height: 60px;
-    gap: 0px;
-    opacity: 0px;
-  }
-
-  #Logo_SubTitle {
-    width: 179px;
-    height: 15px;
-    top: 45px;
-    left: 4px;
-    gap: 0px;
-    opacity: 0px;
-
-  }
-
-  nav_menu {
-    width: 443px;
-    height: 27px;
-    top: 16px;
-    left: 757px;
-    gap: 0px;
-    opacity: 0px;
-
-  }
-  
-  .topbar {
-    display: flex;
-  }
-  
-  .btn {
-    margin-right: 20px;
-    cursor: pointer;
-  }
-  
-  .btn_logo {
-    font-weight: bold;
-    cursor: pointer;
-  }
-  
-  /* Start screen styles */
-  .start_screen {
-    width: 1280px;
-    height: 908px;
-    gap: 0px;
-    opacity: 0px;
-    background-color: #211F20;
-    background: radial-gradient(#5B483A, #262425);
-  }
-  
-  .start_screen-content {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 1200px;
-    height: 728px;
-    top: 180px;
-    left: 40px;
-    gap: 0px;
-    opacity: 0px;
-  }
-  
-  .content {
-    max-width: 50%;
-  }
-  
-  .heading {
-    font-size: 44px;
-    font-weight: 400;
-    line-height: 57.2px;
-    text-align: left;
-    color: #FFFFFF;
-  }
-  
-  .subheading {
-    width: 460px;
-    height: 72px;
-    top: 156px;
-    gap: 0px;
-    opacity: 0px;
-    font-family: Arial;
-    font-size: 15px;
-    font-weight: 400;
-    line-height: 24px;
-    text-align: left;
-    color: #CDCDCD;
-  }
-  
-  button_primary {
-    padding: 10px 20px;
-    background-color: #4CAF50;
-    color: #fff;
-    border: none;
-    cursor: pointer;
-    font-size: 18px;
-    transition: background-color 0.3s ease;
-  }
-  
-  button_primary:hover {
-    background-color: #45a049;
-  }
-
-#dog_main {
-    width: 698px;
-    height: 728px;
-    left: 502px;
-    gap: 0px;
-    opacity: 0px;
-    position: bottom;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-  
+/* Global styles */
+body {
+  font-family: Georgia, sans-serif;
+}
+
+ .section1 {
+  max-width: 1200px;
+  margin: auto;
+  padding: 0 20px;
+  width: 1280px;
+  height: 908px;
+  gap: 0px;
+  opacity: 0px;
+
+  background: url(assets/img/shhh.png), radial-gradient(#5B483A, #262425);
+}
+
+/* Header styles */
+header {
+  padding: 20px 0;
+}
+
+.topbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav_menu {
+  display: flex;
+  gap: 20px;
+}
+
+.btn {
+  cursor: pointer;
+}
+
+/* Logo styles */
+.btn_title {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.btn_subtitle {
+  font-size: 16px;
+}
+
+/* Start screen styles */
+.start_screen {
+  padding: 100px 0;
+  text-align: center;
+
+}
+
+.start_screen-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+.content {
+  max-width: 50%;
+}
+
+.heading {
+  font-family: Georgia;
+  font-size: 44px;
+  font-weight: 400;
+  line-height: 57.2px;
+  text-align: left;
+  color: #FFFFFF;
+}
+
+.subheading {
+  font-size: 18px;
+  margin-bottom: 20px;
+  color: #CDCDCD;
+}
+
+#dog_main {
+  width: 698px;
+  height: 728px;
+  left: 502px;
+  gap: 0px;
+  opacity: 0px;
+}
+
+#button_primary {
+  padding: 10px 20px;
+  font-size: 18px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+#button_primary:hover {
+  /* Example effect for hover state */
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+/* Footer styles */
+footer {
+  padding: 20px 0;
+  text-align: center;
+}
+
+.about {
+  width: 1200px;
+  height: 408px;
+  top: 80px;
+  left: 40px;
+  padding: 0px 175px 0px 175px;
+  gap: 0px;
+  opacity: 0px;
+  background:#FFFFFF;
+}
