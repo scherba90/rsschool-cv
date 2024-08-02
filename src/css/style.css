@@ -294,6 +294,10 @@ img {
   opacity: 0px;
 }
 
+.arrow-container:active {
+  
+}
+
 .arrow-container:hover {
   
   width: 52px;
