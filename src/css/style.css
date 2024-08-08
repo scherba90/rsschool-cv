@@ -152,6 +152,7 @@ h2 {
 #button_primary:active {
   border: 2px solid #F1CDB3;
   background: white;
+  
 }
 
 
@@ -261,6 +262,7 @@ img#pets {
 
 
 
+
 img {
   width: 270px;
   height: 270px;
@@ -271,6 +273,9 @@ img {
 }
 
 .pets .pets_content .arrow {
+  height: 52px;
+  width: 52px;
+  fill: none;
   cursor: pointer;
   border: none;
   gap: 0px;
@@ -281,7 +286,6 @@ img {
 }
 
 .arrow-left {
-  
   left: 40px;
 }
 
@@ -301,23 +305,33 @@ img {
 }
 
 .arrow:active {
-
+  background-color: #FDDCC4; /* Изменение цвета фона при наведении */
 }
 
-.button_secondary {
+.button_secondary {  
   height: 52px;
   width: 187px;
   position: absolute;
   bottom: 30px;
   left: 50%;
+  background-color: #FAFAFA; /* Цвет фона кнопки */
+  color: #292929; /* Цвет текста на кнопке */
   transform: translateX(-50%);
-  padding: 15px, 45px, 15px, 45px;
-  background: #FAFAFA;
-  border-color: #F1CDB3;
-  /* border: 2px; */
-  border-radius: 100px;
-  cursor: pointer;
+  border: 2px solid #F1CDB3; /* Цвет и толщина границы */
+  padding: 15px, 45px, 15px, 45px; /* Отступы внутри кнопки */
+  border-radius: 100px;; /* Скругление углов кнопки */
+  font-family: Georgia;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 22.1px;
+  letter-spacing: 0.06em;
+  cursor: pointer; /* Изменение курсора при наведении */
   gap: 10px;
+  transition: background-color 0.3s, border-color 0.3s; /* Анимация при наведении */
+}
+
+.button_secondary:active {
+  background-color: #FDDCC4; /* Изменение цвета фона при наведении */
 }
 
 
@@ -338,6 +352,8 @@ img {
   letter-spacing: 0.06em;
   text-align: center;
   white-space: nowrap;
+  border: transparent;
+  transition: background-color 0.3s, border-color 0.3s; /* Анимация при наведении */
 }
 
 .pets .pets_content .slider #button_primary:hover {
