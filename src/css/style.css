@@ -259,21 +259,7 @@ img#pets {
 
 }
 
-.button_secondary {
-  height: 52px;
-  width: 187px;
-  position: absolute;
-  bottom: 30px;
-  left: 50%;
-  transform: translateX(-50%);
-  padding: 15px, 45px, 15px, 45px;
-  background: #FAFAFA;
-  border-color: #F1CDB3;
-  /* border: 2px; */
-  border-radius: 100px;
-  cursor: pointer;
-  gap: 10px;
-}
+
 
 img {
   width: 270px;
@@ -285,23 +271,22 @@ img {
 }
 
 .pets .pets_content .arrow {
-
   cursor: pointer;
   border: none;
   gap: 0px;
   opacity: 0px;
   background: none;
   z-index: 100;
-  transform: translateY(-50%);
+  transform: translateY(-200px);
 }
 
 .arrow-left {
-
+  
   left: 40px;
 }
 
 .arrow-right {
-
+  
   right: 40px;
 }
 
@@ -319,11 +304,27 @@ img {
 
 }
 
+.button_secondary {
+  height: 52px;
+  width: 187px;
+  position: absolute;
+  bottom: 30px;
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 15px, 45px, 15px, 45px;
+  background: #FAFAFA;
+  border-color: #F1CDB3;
+  /* border: 2px; */
+  border-radius: 100px;
+  cursor: pointer;
+  gap: 10px;
+}
+
 
 .pets .pets_content .btn {
   width: 261px;
   height: 52px;
-  margin: 200px 470px 0px 470px;
+  margin: 150px 470px 0 470px;
   padding: 15px 45px 15px 45px;
   gap: 10px;
   border-radius: 100px;
