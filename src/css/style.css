@@ -263,7 +263,7 @@ img#pets {
 
 
 
-img {
+.pets .pets_content .slider img {
   width: 270px;
   height: 270px;
   gap: 0px;
@@ -364,6 +364,54 @@ img {
 .pets .pets_content .slider #button_primary:active {
   border: 2px solid #F1CDB3;
   background: white;
+}
+
+.help {
+  width: 1280px;
+  height: 611px;
+  top: 2373px;
+  padding: 80px 40px 100px 40px;
+  gap: 0px;
+  opacity: 0px;
+}
+
+.help-content {
+  width: 1200px;
+  height: 431px;
+  top: 80px;
+  left: 40px;
+  padding: 0px 87px 0px 87px;
+  gap: 0px;
+  opacity: 0px;
+  display: flex;;
+}
+
+.help .help-content .icon-grid {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 20px;
+  text-align: center;
+  
+ 
+}
+
+.icon_item {
+  text-align: center;
+  margin-right: 120px;
+  justify-content:space-between;
+}
+
+.help .help-content .icon-grid .icon-item .img {
+  width: 60px;
+  height: 60px;
+}
+
+.icon-grid > .icon-item:nth-child(n+6) {
+  grid-column: span 1; /* Для второй строки с 4 иконками */
+}
+
+.icon-grid > .icon-item:nth-child(6) {
+  grid-column-start: 2; /* Начинаем с 2-й позиции */
 }
 
 /* Footer styles */
