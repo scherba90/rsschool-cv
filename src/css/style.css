@@ -468,13 +468,17 @@ img#pets {
 
 }
 
-.donation_img .img {
+.donation_img {
   width: 505px;
   height: 261px;
   top: 11px;
   gap: 0px;
   opacity: 0px;
   padding: 11px 30px 10px 0;
+}
+
+.donation_text {
+  padding: 11px 0 10px 30px
 }
 
 .donation_text h3 {
@@ -493,7 +497,8 @@ img#pets {
 
 .donation_text h5 {
   display: flex;
-  flex-wrap: nowrap;
+  align-items: center;
+  white-space: nowrap;
   font-family: Georgia;
   font-size: 15px;
   font-weight: 400;
@@ -506,7 +511,7 @@ img#pets {
   gap: 0px;
   opacity: 0px;
   color: #545454;
-  padding: 20px 0 20px 0;
+  padding: 20px 0px 20px 0px;
 }
 
 .credit_card {
@@ -533,7 +538,10 @@ img#pets {
   font-weight: 400;
   line-height: 23px;
   letter-spacing: 0.06em;
-  text-align: left;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  text-decoration: none;
 }
 
 .donation_text p {
@@ -549,15 +557,21 @@ img#pets {
   line-height: 18px;
   text-align: left;
   color: #B2B2B2;
+  padding: 20px 0 0 0;
 }
 
 
 
 /* Footer styles */
-footer {
+footer .gradient{
+  margin: auto;
   width: 1280px;
   height: 350px;
   top: 3446px;
   gap: 0px; 
   opacity: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: wrap-reverse column-reverse;
 }
