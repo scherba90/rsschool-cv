@@ -514,7 +514,7 @@ img#pets {
   padding: 20px 0px 20px 0px;
 }
 
-.credit_card {
+.donation_text .credit_card {
   width: 349px;
   height: 43px;
   top: 147px;
@@ -525,6 +525,7 @@ img#pets {
   background: #F1CDB3;
   display: flex;
   justify-content: flex-start;
+  text-decoration: none;
 }
 
 .credit_card svg {
@@ -561,17 +562,30 @@ img#pets {
 }
 
 
-
 /* Footer styles */
-footer .gradient{
+footer {
   margin: auto;
   width: 1280px;
   height: 350px;
   top: 3446px;
   gap: 0px; 
   opacity: 0px;
+}
+
+.gradient {
+  width: 1200px;
+  height: 310px;
+  padding: 40px 40px 0 40px;
+  gap: 0px;
+  opacity: 0px;
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
   flex-direction: wrap-reverse column-reverse;
+  
+}
+
+.footer_text {
+  display: flex;
+  text-decoration: none;
 }
