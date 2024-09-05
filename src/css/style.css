@@ -253,7 +253,6 @@ img#pets {
   width: 270px;
   height: 435px;
   position: relative;
-  ;
   overflow: hidden;
   gap: 30px;
   border-radius: 9px 0px 0px 0px;
@@ -268,9 +267,6 @@ img#pets {
 
 }
 
-
-
-
 .pets .pets_content .slider img {
   width: 270px;
   height: 270px;
@@ -281,14 +277,13 @@ img#pets {
 }
 
 .pets .pets_content .arrow {
-  display: flex;
+/*   display: flex;
   align-items: center;
   justify-content: center;
-
+  flex-direction: column-reverse; */
   width: 52px;
   height: 52px;
-  background-color: transparent;
-  /* Default background color */
+  background-color: transparent;/* Default background color */
   border: 2px solid #F1CDB3;
   border-radius: 50%;
   cursor: pointer;
@@ -296,15 +291,25 @@ img#pets {
   padding: 0;
 }
 
+/* .pets .pets_content .arrow-right {
+  display:;
+  width: 52px;
+  height: 52px;
+  background-color: transparent;
+  border: 2px solid #F1CDB3;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.3s;
+  padding: 0;
+} */
+
 .arrow-left svg {
   transform: rotate(0deg);
 
 }
 
-
-
 .arrow svg {
-  display: block;
+  
   width: 16px;
   height: 16px;
   fill: #292929;
