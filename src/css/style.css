@@ -146,7 +146,8 @@ h2 {
 
 #button_primary:hover {
   /* Example effect for hover state */
-  background: #FDDCC4;
+  background-color: #FDDCC4;
+  transition: background-color 0.3s
 }
 
 #button_primary:active {
@@ -355,6 +356,11 @@ img#pets {
   transition: background-color 0.3s, border-color 0.3s;/* Анимация при наведении */
 }
 
+.button_secondary:hover {
+  background-color: #F1CDB3;
+  transition: background-color 0.3s;
+}
+
 .button_secondary:active {
   background-color: #FDDCC4;/* Изменение цвета фона при наведении */
 }
@@ -526,6 +532,11 @@ img#pets {
   display: flex;
   justify-content: flex-start;
   text-decoration: none;
+}
+
+.donation_text .credit_card:hover {
+  background-color: #FDDCC4;
+  transition: background-color 0.3s;
 }
 
 .credit_card svg {
