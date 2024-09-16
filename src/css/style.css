@@ -17,7 +17,8 @@ body {
   height: 908px;
   gap: 0px;
   opacity: 0px;
-  background: url(assets/img/shhh.png), radial-gradient(#5B483A, #262425);
+  background: url(assets/img/shhh.png) repeat, radial-gradient(100% 215.42% at 0% 0%, #5B483A 0%, #262425 100%);
+  color: #ffffff;
 }
 
 /* Header styles */
@@ -581,6 +582,19 @@ footer {
   top: 3446px;
   gap: 0px; 
   opacity: 0px;
+  background: url("../img/home/noise.png") repeat, radial-gradient(100% 215.42% at 0% 0%, #5B483A 0%, #262425 100%);
+  color: #ffffff;
+}
+
+.footer_title {
+  font-family: Georgia;
+  font-size: 35px;
+  font-weight: 400;
+  line-height: 45.5px;
+  letter-spacing: 0.06em;
+  text-align: left;
+  color: #FFFFFF;
+
 }
 
 .gradient {
@@ -593,10 +607,23 @@ footer {
   justify-content: space-between;
   align-items: center;
   flex-direction: wrap-reverse column-reverse;
-  
 }
 
 .footer_text {
   display: flex;
   text-decoration: none;
 }
+
+.footer_text p {
+  font-family: Georgia;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 23px;
+  letter-spacing: 0.06em;
+  text-align: left;
+  text-decoration: none;
+  color: #F1CDB3;
+  padding: 5px 0 4px 20px;
+}
+
+
