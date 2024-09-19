@@ -582,11 +582,11 @@ footer {
   top: 3446px;
   gap: 0px; 
   opacity: 0px;
-  background: url("../img/home/noise.png") repeat, radial-gradient(100% 215.42% at 0% 0%, #5B483A 0%, #262425 100%);
+  background: url("../img/footer-gradient-background.png");
   color: #ffffff;
 }
 
-footer .footer__body {
+footer .footer__content {
   padding: 40px 40px 0 40px;
 }
 
@@ -601,24 +601,20 @@ footer .footer__body {
 
 }
 
-.gradient {
+.footer__body {
   width: 1200px;
   height: 310px;
   padding: 40px 40px 0 40px;
   gap: 0px;
   opacity: 0px;
   display: flex;
-  justify-content: space-between;
-  align-content: center;
+  justify-content: center;
+  
 
 }
 
 .footer_text {
   display: flex;
-  text-decoration: none;
-}
-
-.footer_text {
   text-decoration: none;
   font-family: Georgia;
   font-size: 20px;
@@ -627,8 +623,19 @@ footer .footer__body {
   letter-spacing: 0.06em;
   text-align: center;
   color: #F1CDB3;
-  padding: 5px 0 4px 20px;
-  
+  padding: 40px 27px 0 0;
+  justify-content: start;
+  align-items: center;
 }
 
+.footer_text span {
+  padding: 5px 0 4px 20px;
+}
 
+.puppy img {
+  width: 300px;
+  height: 310px;
+  left: 900px;
+  gap: 0px;
+  opacity: 0px;
+}
