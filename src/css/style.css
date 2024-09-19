@@ -579,63 +579,70 @@ footer {
   margin: auto;
   width: 1280px;
   height: 350px;
-  top: 3446px;
-  gap: 0px; 
-  opacity: 0px;
   background: url("../img/footer-gradient-background.png");
   color: #ffffff;
-}
-
-footer .footer__content {
-  padding: 40px 40px 0 40px;
-}
-
-.footer_title {
-  font-family: Georgia;
-  font-size: 35px;
-  font-weight: 400;
-  line-height: 45.5px;
-  letter-spacing: 0.06em;
-  text-align: left;
-  color: #FFFFFF;
-
 }
 
 .footer__body {
   width: 1200px;
   height: 310px;
-  padding: 40px 40px 0 40px;
-  gap: 0px;
-  opacity: 0px;
+  padding: 40px;
   display: flex;
-  justify-content: center;
+  margin: auto 0;
+  justify-content: space-between;
+  align-items: flex-start;
   
-
 }
 
-.footer_text {
+.footer__body .contacts {
+  width: 278px;
+  height: 234px;
+  top: 16px;
+  padding: 0px;
+  gap: 0px;
+  opacity: 0px;
+}
+
+.footer__body .locations {
+  width: 302px;
+  height: 234px;
+  top: 16px;
+  left: 438px;
+  gap: 0px;
+  opacity: 0px;
+}
+
+.footer__title {
+  font-family: Georgia, serif;
+  font-size: 35px;
+  font-weight: 400;
+  line-height: 45.5px;
+  letter-spacing: 0.06em;
+  text-align: left;
+  color: #ffffff;
+  white-space: nowrap;
+}
+
+
+
+.footer__link {
   display: flex;
   text-decoration: none;
-  font-family: Georgia;
+  font-family: Georgia, serif;
   font-size: 20px;
   font-weight: 400;
   line-height: 23px;
   letter-spacing: 0.06em;
   text-align: center;
   color: #F1CDB3;
-  padding: 40px 27px 0 0;
-  justify-content: start;
-  align-items: center;
+  margin-top: 20px;
 }
 
-.footer_text span {
-  padding: 5px 0 4px 20px;
+.footer__link span {
+  margin-left: 20px;
 }
 
 .puppy img {
   width: 300px;
   height: 310px;
-  left: 900px;
-  gap: 0px;
-  opacity: 0px;
 }
