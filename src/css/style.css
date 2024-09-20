@@ -41,17 +41,20 @@ header {
   font-weight: 400;
   line-height: 24px;
   text-align: left;
-
+  text-decoration: none;
 }
 
 .btn {
   cursor: pointer;
+  text-decoration: none;
+  color: #FAFAFA;
 }
 
 .topbar .nav_menu .btn:active {
   text-decoration: underline 3px;
   text-decoration-color: #F1CDB3;
   color: #FAFAFA;
+  transition: background-color 0.3s;
 }
 
 /* Logo styles */
