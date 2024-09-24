@@ -16,7 +16,6 @@ body {
   width: 1280px;
   height: 908px;
   gap: 0px;
-  opacity: 0px;
   background: url(assets/img/shhh.png) repeat, radial-gradient(100% 215.42% at 0% 0%, #5B483A 0%, #262425 100%);
   color: #ffffff;
 }
@@ -126,7 +125,7 @@ h2 {
   height: 728px;
   left: 502px;
   gap: 0px;
-  opacity: 0px;
+  
 }
 
 .start_screen .start_screen-content .content .btn {
@@ -136,7 +135,6 @@ h2 {
   padding: 15px 45px 15px 45px;
   gap: 10px;
   border-radius: 100px;
-  opacity: 0px;
   color: black;
   background-color: #F1CDB3;
   font-family: Georgia;
@@ -157,7 +155,6 @@ h2 {
 #button_primary:active {
   border: 2px solid #F1CDB3;
   background: white;
-
 }
 
 
@@ -168,7 +165,6 @@ h2 {
   height: 588px;
   background: #FFFFFF;
   gap: 0px;
-  opacity: 0px;
 }
 
 .about_content {
@@ -179,7 +175,6 @@ h2 {
   margin-top: 80px;
   padding: 0 10px 0 20px;
   gap: 0px;
-  opacity: 0px;
 }
 
 .about_content .about_content {
@@ -219,7 +214,7 @@ img#pets {
   top: 1496px;
   padding: 80px 40px 100px 40px;
   gap: 0px;
-  opacity: 0px;
+  
   background-color: #F6F6F6;
 }
 
@@ -229,7 +224,7 @@ img#pets {
   top: 80px;
   left: 40px;
   gap: 0px;
-  opacity: 0px;
+  
   text-align: center;
 
 }
@@ -249,7 +244,7 @@ img#pets {
   height: 435px;
   top: 150px;
   gap: 0px;
-  opacity: 0px;
+  
   margin-top: 60px;
 }
 
@@ -260,7 +255,7 @@ img#pets {
   overflow: hidden;
   gap: 30px;
   border-radius: 9px 0px 0px 0px;
-  opacity: 0px;
+  
   position: relative;
   text-align: center;
   display: inline-block;
@@ -284,7 +279,7 @@ img#pets {
   height: 270px;
   gap: 0px;
   border-radius: 9px 9px 0px 0px;
-  opacity: 0px;
+  
   display: block;
 }
 
@@ -353,11 +348,14 @@ img#pets {
   color: #292929;/* Цвет текста на кнопке */
   transform: translateX(-50%);
   border: 2px solid #F1CDB3;/* Цвет и толщина границы */
-  padding: 15px, 45px, 15px, 45px;/* Отступы внутри кнопки */
+  padding: 15px 45px 15px 45px;/* Отступы внутри кнопки */
   border-radius: 100px;/* Скругление углов кнопки */
   cursor: pointer;/* Изменение курсора при наведении */
   gap: 10px;
   transition: background-color 0.3s, border-color 0.3s;/* Анимация при наведении */
+  display: flex;
+  white-space: nowrap;
+  align-items: center;
 }
 
 .button_secondary:hover {
@@ -377,7 +375,6 @@ img#pets {
   padding: 15px 45px 15px 45px;
   gap: 10px;
   border-radius: 100px;
-  opacity: 0px;
   color: #292929;
   background-color: #F1CDB3;
   font-family: Georgia;
@@ -408,7 +405,7 @@ img#pets {
   top: 2373px;
   padding: 80px 40px 100px 40px;
   gap: 0px;
-  opacity: 0px;
+  
   margin: auto;
 }
 
@@ -461,7 +458,6 @@ img#pets {
   top: 2984px;
   padding: 80px 182px 100px 183px;
   gap: 0px;
-  opacity: 0px;
   background: #F6F6F6;
   margin: auto;
 }
@@ -472,10 +468,8 @@ img#pets {
   top: 80px;
   left: 183px;
   gap: 0px;
-  opacity: 0px;
   display: flex;
   justify-content: center;
-
 }
 
 .donation_img {
@@ -483,7 +477,6 @@ img#pets {
   height: 261px;
   top: 11px;
   gap: 0px;
-  opacity: 0px;
   padding: 11px 30px 10px 0;
 }
 
@@ -495,7 +488,6 @@ img#pets {
   width: 300px;
   height: 90px;
   gap: 0px;
-  opacity: 0px;
   font-family: Georgia;
   font-size: 35px;
   font-weight: 400;
@@ -519,7 +511,6 @@ img#pets {
   height: 17px;
   top: 110px;
   gap: 0px;
-  opacity: 0px;
   color: #545454;
   padding: 20px 0px 20px 0px;
 }
@@ -531,7 +522,6 @@ img#pets {
   padding: 10px 15px 10px 15px;
   gap: 10px;
   border-radius: 9px;
-  opacity: 0px;
   background: #F1CDB3;
   display: flex;
   justify-content: flex-start;
@@ -565,7 +555,6 @@ img#pets {
   height: 72px;
   top: 210px;
   gap: 0px;
-  opacity: 0px;
   font-family: Arial;
   font-size: 12px;
   font-style: italic;
@@ -594,7 +583,6 @@ footer {
   margin: auto 0;
   justify-content: space-between;
   align-items: flex-start;
-  
 }
 
 .footer__body .contacts {
@@ -603,7 +591,6 @@ footer {
   top: 16px;
   padding: 0px;
   gap: 0px;
-  opacity: 0px;
 }
 
 .footer__body .locations {
@@ -612,7 +599,6 @@ footer {
   top: 16px;
   left: 438px;
   gap: 0px;
-  opacity: 0px;
 }
 
 .footer__title {
