@@ -17,17 +17,23 @@ body {
     opacity: 0px;
   }
   
-.topbar {
-    width: 1200px;
-    height: 60px;
-    top: 30px;
-    left: 40px;
-    gap: 0px;
-    opacity: 0px;
-    display: flex;
-    justify-content: flex-start;
+
+#pets__nav {
+  margin: auto;
+  width: 1200px;
+  height: 60px;
+  color: #545454;
+  
 }
 
-.nav_menu {
-    
+.our__pets-page .btn_title {
+  color: #545454;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#pets__menu-header {
+  width: 1200px;
+  height: 60px;
 }

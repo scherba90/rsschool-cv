@@ -632,3 +632,44 @@ footer {
   width: 300px;
   height: 310px;
 }
+
+/* Header styles */
+.our__pets-page .wrapper {
+  margin: auto;
+  width: 1280px;
+  height: 120px;
+}
+
+.our__pets-page header {
+  margin: auto;
+  width: 1200px;
+  height: 60px;
+}
+
+.our__pets-page .topbar {
+  margin: auto;
+  width: 1200px;
+  height: 60px;
+  gap: 0px;
+  opacity: 0px;
+}
+
+
+.our__pets-page .btn_title, .btn_subtitle {
+  color: #545454;
+}
+
+.our__pets-page .topbar .btn{
+  font-family: Arial;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  color: #545454;
+}
+
+.our__pets-page .topbar .btn:active{
+  color: #292929;
+  ;
+}
+
