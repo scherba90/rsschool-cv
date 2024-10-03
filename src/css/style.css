@@ -330,7 +330,7 @@ img#pets {
 }
 
 .button_secondary {
-  font-family: Georgia;
+  font-family: Georgia, serif; /* Серийный шрифт на случай отсутствия основного */
   font-size: 17px;
   font-weight: 400;
   line-height: 22.1px;
@@ -340,28 +340,26 @@ img#pets {
   position: absolute;
   bottom: 30px;
   left: 50%;
-  background-color: #FAFAFA;/* Цвет фона кнопки */
-  color: #292929;/* Цвет текста на кнопке */
+  background-color: #FAFAFA;
+  color: #292929;
   transform: translateX(-50%);
-  border: 2px solid #F1CDB3;/* Цвет и толщина границы */
-  padding: 15px 45px 15px 45px;/* Отступы внутри кнопки */
-  border-radius: 100px;/* Скругление углов кнопки */
-  cursor: pointer;/* Изменение курсора при наведении */
-  gap: 10px;
-  transition: background-color 0.3s, border-color 0.3s;/* Анимация при наведении */
+  border: 2px solid #F1CDB3;
+  border-radius: 100px;
+  cursor: pointer;
   display: flex;
-  white-space: nowrap;
   align-items: center;
   justify-content: center;
+  padding: 15px 45px;
+  transition: background-color 0.3s, border-color 0.3s;
+  white-space: nowrap;
 }
 
 .button_secondary:hover {
   background-color: #F1CDB3;
-  transition: background-color 0.3s;
 }
 
 .button_secondary:active {
-  background-color: #FDDCC4;/* Изменение цвета фона при наведении */
+  background-color: #FDDCC4;
 }
 
 
@@ -670,6 +668,22 @@ footer {
 
 .our__pets-page .topbar .btn:active{
   color: #292929;
-  ;
+  
+}
+
+.our__pets-page .pets__content {
+  width: 1200px;
+  height: 1162px;
+  gap: 0px;
+  opacity: 0px;
+}
+
+.our__pets-page .pets__content .card__container {
+  display: flex; /* Устанавливаем flexbox для контейнера */
+  gap: 10px; /* Расстояние между элементами */
+  list-style-type: none; /* Удаляем маркеры списка */
+  width: 1200px;
+  height: 930px;
+  flex-wrap: wrap;
 }
 
